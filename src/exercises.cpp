@@ -5,6 +5,8 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
+
+
   // TODO: YOUR CODE HERE
 }
 
@@ -72,5 +74,17 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+    exercise_16(7 , 17);
+   int hour;
+   cout << "cuanto timepo desea alquilar la bici";cin >> hour; 
+if(hour <= debut){
+    cout << "cada hora te sale 1 bs" << endl;
+}
+else if(hour <= fin){
+    cout << "cada hora te sale 2 bs" << endl;
+
+}
+
+  
+  
 }
