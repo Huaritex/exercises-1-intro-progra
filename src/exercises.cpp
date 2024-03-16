@@ -23,7 +23,16 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
+  int riss = character;
+  if(riss >= 97 && riss < 123){
+    cout << "lower-case alphabet" << endl;
+  }
+  else if(riss >= 65 && riss < 91){
+    cout << "upper-case alphabet" << endl;
+  }
+  else{
+    cout << "not an alphabet" << endl;
+  }
 }
 
 void exercise_6(int number) {
