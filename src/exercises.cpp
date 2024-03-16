@@ -47,11 +47,16 @@ int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
 }
 
-string exercise_11(int number) {
+string exercise_11(int number){
   // TODO: YOUR CODE HERE
-  return "";
+  if(number == 11235813){
+  return "se encontro a fibonacci";
+  }
+else
+{
+  return"esto no es de fibonacci";
 }
-
+}
 void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
@@ -74,13 +79,13 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-      int hour;
-   if(hour <= debut && hour >= fin){
-    cout << "el alquiler es 1 bs" << endl;
-   }
-   else(hour >= debut && hour <= fin){
-    cout << "el alquiler es 2 bs" << endl;
-   }
+   int hour;
+   cout << "cuanto timepo desea alquilar la bici";cin >> hour; 
+if(hour <= debut){
+    cout << "cada hora te sale 1 bs" << endl;
+}
+else if(hour <= fin){
+    cout << "cada hora te sale 2 bs" << endl;
 
 
 }
