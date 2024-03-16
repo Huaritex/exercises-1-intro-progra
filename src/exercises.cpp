@@ -79,7 +79,6 @@ string exercise_13(int age, int years_of_experience) {
 }
 
 string exercise_14(int number_of_docs) {
-cin << number_of_docs;
 if(number_of_number == 0){
   cout << "no se encontro los documentos" << endl;
 }
@@ -89,7 +88,7 @@ else if(number_of_docs == 1){
 else{
   cout << number_of_docs << "documentos encotrados" << endl;
 }
-  return 0;
+  return "";
 }
 
 void exercise_15(int a, int b, int c) {
