@@ -89,7 +89,7 @@ else if(number_of_docs == 1){
 else{
   cout << number_of_docs << "documentos encotrados" << endl;
 }
-  return "";
+  return 0;
 }
 
 void exercise_15(int a, int b, int c) {
