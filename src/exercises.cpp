@@ -74,15 +74,14 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-    exercise_16(7 , 17);
-   int hour;
-   cout << "cuanto timepo desea alquilar la bici";cin >> hour; 
-if(hour <= debut){
-    cout << "cada hora te sale 1 bs" << endl;
-}
-else if(hour <= fin){
-    cout << "cada hora te sale 2 bs" << endl;
-    
+      int hour;
+   if(hour <= debut && hour >= fin){
+    cout << "el alquiler es 1 bs" << endl;
+   }
+   else(hour >= debut && hour <= fin){
+    cout << "el alquiler es 2 bs" << endl;
+   }
+
 
 }
 
