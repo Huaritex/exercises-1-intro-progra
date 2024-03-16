@@ -82,6 +82,7 @@ if(hour <= debut){
 }
 else if(hour <= fin){
     cout << "cada hora te sale 2 bs" << endl;
+    
 
 }
 
