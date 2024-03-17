@@ -20,7 +20,26 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  double D = (B * B) - 4 * A * C;
+  if(D > 0 && A != 0){
+    double raiz = sqrt (D);
+    double raiz2 = (-B + raiz) / (2 * A);
+    double raiz3 = (-B - raiz) / (2 * A);
+    cout << raiz2 << " " << raiz3 << endl;
+  }
+  else if(D == 0 && A != 0){
+    double raiz = sqrt (D);
+    double raiz2 = (-B + raiz) / (2 * A);
+  }
+  else if(A == 0 && B != 0){
+    cout << (-1 * (c)) / B << endl;
+  }
+  else if(A != 0 && B == 0){
+    cout << sqrt (C/A) << endl;
+  }
+  else{
+    cout << "";
+  }
 }
 
 void exercise_3(int a, int b) {
