@@ -23,11 +23,11 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
-  int riss = character;
-  if(riss >= 97 && riss < 123){
+  int res = character;
+  if(res >= 97 && res < 123){
     cout << "lower-case alphabet" << endl;
   }
-  else if(riss >= 65 && riss < 91){
+  else if(res >= 65 && res < 91){
     cout << "upper-case alphabet" << endl;
   }
   else{
@@ -117,18 +117,7 @@ string exercise_13(int age, int years_of_experience) {
 }
 
 string exercise_14(int number_of_docs) {
-cin << number_of_docs;
-if(number_of_number == 0){
-  cout << "no se encontro los documentos" << endl;
-}
-else if(number_of_docs == 1){
-  cout << "se encontro los documentos" << endl;
-}
-else{
-  cout << number_of_docs << "documentos encotrados" << endl;
-}
-  return "";
-}
+
 
 void exercise_15(int a, int b, int c) {
   
@@ -136,7 +125,20 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
 
+   int hour;
+   if(hour <= debut && hour >= fin){
+    cout << "el alquiler es 1 bs" << endl;
+   }
+   else(hour >= debut && hour <= fin){
+    cout << "el alquiler es 2" << endl;
+   }
 
+
+
+
+   return 0;
+}
+}
   
   
 }
