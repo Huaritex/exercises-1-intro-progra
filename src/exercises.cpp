@@ -125,20 +125,7 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
 
-   int hour;
-   if(hour <= debut && hour >= fin){
-    cout << "el alquiler es 1 bs" << endl;
-   }
-   else(hour >= debut && hour <= fin){
-    cout << "el alquiler es 2" << endl;
-   }
 
-
-
-
-   return 0;
-}
-}
   
   
 }
