@@ -44,7 +44,39 @@ void exercise_7(double r) {
 }
 
 void exercise_8(long int seconds) {
-  // TODO: YOUR CODE HERE
+int h;
+int m;
+if(seconds < 0){
+    cout << "Error: Input seconds cannot be negative." << endl;
+}
+else {
+h = seconds/3600;
+seconds = seconds%3600;
+m = seconds/60;
+seconds = seconds%60;
+  if(h < 10 && m < 10 && seconds < 10){
+    cout << "0" << h << ":" << "0" << m << ":" << "0" << seconds << endl;
+}
+else if(h < 10 && m >= 10 && seconds >= 10){
+    cout << "0" << h << ":" << m << ":" << seconds << endl; 
+}
+else if(h < 10 && m >= 10 && seconds < 10){
+    cout << "0" << h << ":" << m << ":" << "0" << seconds << endl;
+}
+else if(h < 10 && m < 10 && seconds >= 10){
+    cout << "0" << h << ":" << "0" << m << ":" << seconds << endl;
+}
+else if(h >= 10 && m < 10 && seconds < 10){
+    cout << h << ":" << "0" << m << ":" << "0" << seconds << endl; 
+}
+else if(h >= 10 && m >= 10 && seconds < 10){
+    cout << h << ":" << m << ":" << "0" << seconds << endl;
+}
+else{
+  cout << h << ":" << m << ":" << seconds << endl;
+} 
+}
+
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
