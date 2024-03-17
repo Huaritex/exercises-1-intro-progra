@@ -53,7 +53,13 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
+  if( a < 0 && b < 0){
+    return 0;
+  }
+  int sum = a + b;
+  int digit_count = (sum == 0)? 1:
+  (int) log10 (abs(sum)) + 1;
+  return sum * digit_count;
 }
 
 string exercise_11(int number){
@@ -79,6 +85,7 @@ string exercise_13(int age, int years_of_experience) {
 }
 
 string exercise_14(int number_of_docs) {
+cin << number_of_docs;
 if(number_of_number == 0){
   cout << "no se encontro los documentos" << endl;
 }
@@ -92,7 +99,7 @@ else{
 }
 
 void exercise_15(int a, int b, int c) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_16(int debut, int fin) {
