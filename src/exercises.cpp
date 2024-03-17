@@ -23,13 +23,14 @@ void exercise_2(double A, double B, double C) {
   double D = (B * B) - 4 * A * C;
   if(D > 0 && A != 0){
     double raiz = sqrt (D);
-    double raiz2 = (-B + raiz) / (2 * A);
-    double raiz3 = (-B - raiz) / (2 * A);
-    cout << raiz2 << " " << raiz3 << endl;
+    double res1 = (-B + raiz) / (2 * A);
+    double res2 = (-B - raiz) / (2 * A);
+    cout << res1 << " " << res2 << endl;
   }
   else if(D == 0 && A != 0){
     double raiz = sqrt (D);
-    double raiz2 = (-B + raiz) / (2 * A);
+    double res1 = (-B + raiz) / (2 * A);
+    cout << res1 << endl;
   }
   else if(A == 0 && B != 0){
     cout << (-1 * (c)) / B << endl;
