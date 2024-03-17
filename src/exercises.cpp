@@ -107,25 +107,17 @@ else
 void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
-                 string color4, int numb4) {
+                 string color4, int numb4){
   // TODO: YOUR CODE HERE
 }
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
-  return "";
 }
 
-string exercise_14(int number_of_docs) {
+string exercise_14(int number_of_docs) {}
 
 
-void exercise_15(int a, int b, int c) {
-  
-}
+void exercise_15(int a, int b, int c) {}
 
-void exercise_16(int debut, int fin) {
-
-
-  
-  
-}
+void exercise_16(int debut, int fin) {}
