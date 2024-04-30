@@ -50,8 +50,8 @@ void exercise_3(int a, int b) {
       cout << "impossible" << endl;
     }
     else{
-      int resultado = a / b;
-      cout << resultado << endl;
+      int result = a / b;
+      cout << result << endl;
     }
   }
 }
