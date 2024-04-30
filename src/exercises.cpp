@@ -20,32 +20,34 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  double D = (B * B) - 4 * A * C;
-  if(D > 0 && A != 0){
-    double raiz = sqrt (D);
-    double res1 = (-B + raiz) / (2 * A);
-    double res2 = (-B - raiz) / (2 * A);
-    cout << res1 << " " << res2 << endl;
+  double D = (B * B) - (4 * A * C);
+  if (A == 0 && b == 0){
   }
-  else if(D == 0 && A != 0){
-    double raiz = sqrt (D);
-    double res1 = (-B + raiz) / (2 * A);
-    cout << res1 << endl;
+  else if ( A == 0){
+    cout << -C/B << endl;
   }
-  else if(A == 0 && B != 0){
-    cout << (-1 * (c)) / B << endl;
+  else if(B == 0){
+    cout << sqrt(-C/A) << endl;
   }
-  else if(A != 0 && B == 0){
-    cout << sqrt (C/A) << endl;
+  else if (D >= =){
   }
-  else{
-    cout << "";
+  else if(D >= 0){
+    double sqrt_D = sqrt(D);
+    double x1 = (-B + sqrt_D) / (2 * A);
+    doublex2 = (-B - sqrt_D) / (2 * A);
+    
+    if(x1 == x2){
+      cout << x1 << endl;
+    }
+    else{
+      cout << x1 << " " << x2 << endl;
+    }
   }
 }
-
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
 }
+
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
