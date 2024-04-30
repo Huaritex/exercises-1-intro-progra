@@ -29,7 +29,7 @@ void exercise_2(double A, double B, double C) {
   else if(B == 0){
     cout << sqrt(-C/A) << endl;
   }
-  else if (D >= =){
+  else if (D >= 0){
   }
   else if(D >= 0){
     double sqrt_D = sqrt(D);
