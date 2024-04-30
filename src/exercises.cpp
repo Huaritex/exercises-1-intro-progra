@@ -34,7 +34,7 @@ void exercise_2(double A, double B, double C) {
   else if(D >= 0){
     double sqrt_D = sqrt(D);
     double x1 = (-B + sqrt_D) / (2 * A);
-    doublex2 = (-B - sqrt_D) / (2 * A);
+    double x2 = (-B - sqrt_D) / (2 * A);
     
     if(x1 == x2){
       cout << x1 << endl;
