@@ -21,7 +21,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   double D = (B * B) - (4 * A * C);
-  if (A == 0 && b == 0){
+  if (A == 0 && B == 0){
   }
   else if ( A == 0){
     cout << -C/B << endl;
