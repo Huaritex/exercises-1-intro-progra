@@ -45,7 +45,15 @@ void exercise_2(double A, double B, double C) {
   }
 }
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
+  if( 0 <= a <= 1000000) && 0 <= b <= 1000000{
+    if ( b == 0){
+      cout << "imposible" << endl;
+    }
+    else{
+      int resultado = a / b;
+      cout << resultado << endl;
+    }
+  }
 }
 
 
