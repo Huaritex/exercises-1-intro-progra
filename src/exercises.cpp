@@ -160,7 +160,15 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4){
-  // TODO: YOUR CODE HERE
+if(color4 == "?" && numb1 == numb4 || numb4 == -1 && color1 == color4 || color1 == color4 && numb1 == numb4){
+  cout << 1 << endl;
+}
+if(color4 == "?" && numb2 == numb4 || numb4 == -1 && color2 == color4 || color2 == color4 && numb2 == numb4){
+  cout << 2 << endl;
+}
+if(color4 == "?" && numb3 == numb4 == -1 && color3 == color4 || color3 == color4 && numb3 == numb4){
+cout << 3 << endl;
+}
 }
 
 string exercise_13(int age, int years_of_experience) {
