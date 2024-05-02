@@ -114,11 +114,12 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   if(r >= 0){
-    double volumen = 4 * 3.14 *(r * r);
-    cout << volumen << endl;
-  }else if (r < 0){
-    cout << "error: radius cannot be negative." << endl;
-  }
+      double volumen = 4 * 3.14 * (r * r);
+      cout << volumen << endl;
+} 
+else if(r < 0){
+      cout << "Error: Radius cannot be negative." << endl;
+    }
 }
 
 void exercise_8(long int seconds) {
