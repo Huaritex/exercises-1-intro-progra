@@ -166,7 +166,7 @@ if(color4 == "?" && numb1 == numb4 || numb4 == -1 && color1 == color4 || color1 
 if(color4 == "?" && numb2 == numb4 || numb4 == -1 && color2 == color4 || color2 == color4 && numb2 == numb4){
   cout << 2 << endl;
 }
-if(color4 == "?" && numb3 == numb4 == -1 && color3 == color4 || color3 == color4 && numb3 == numb4){
+if(color4 == "?" && numb3 == numb4 || numb4 == -1 && color3 == color4 || color3 == color4 && numb3 == numb4){
 cout << 3 << endl;
 }
 }
