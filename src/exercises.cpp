@@ -159,8 +159,22 @@ else{
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
-  return "";
+  char ss1 = s1 [0];
+  char ss2 = s2 [0];
+  char ss3 = s3 [0];
+  char ss4 = s4 [0];
+  char ss5 = s5 [0];
+
+  string resultado;
+  if(ss1 == ss5){
+    resultado = "Hemos encontrado algo!";
+  }
+  else{
+    resultado = "Aun sin suerte";
+  }
+  string resultado_1 = string (1, ss1) + string(1,ss2) +string (1,ss3) + string (1,ss4) + string (1,ss5);
+  cout << resultado_1 << endl;
+  return resultado;
 }
 
 int exercise_10(int a, int b) {
