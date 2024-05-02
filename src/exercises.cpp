@@ -83,31 +83,32 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int number) {
-  switch(number){
-    case 1:
-    cout << "monday" << endl;
-    break;
-    case 2:
-    cout << "tuesday" << endl;
-    break;
-    case 3:
-    cout << "wednesday" << endl;
-    break;
-    case 4:
-    cout << "thursday" << endl;
-    break;
-    case 5:
-    cout << "friday" << endl;
-    break;
-    case 6:
-    cout << "saturday" << endl;
-    break;
-    case 7:
-    cout << "sunday" << endl;
-    break;
-    default:
-    cout << "invalid input" << endl;
-    break;
+  switch (number){
+        case 1:
+            cout << "Monday" << endl;
+            break;
+        case 2:
+            cout << "Tuesday" << endl;
+            break;
+        case 3:
+            cout << "Wednesday" << endl;
+            break;
+        case 4:
+            cout << "Thursday" << endl;
+            break;
+        case 5:
+            cout << "Friday" << endl;
+            break;
+        case 6:
+            cout << "Saturday" << endl;
+            break;
+        case 7:
+            cout << "Sunday" << endl;
+            break;
+        default:
+            cout << "Invalid input" << endl;
+            break;
+    
   }
 }
 
@@ -172,7 +173,7 @@ int exercise_10(int a, int b) {
 }
 
 string exercise_11(int number){
-  
+
 }
 void exercise_12(string color1, int numb1,
                  string color2, int numb2,
