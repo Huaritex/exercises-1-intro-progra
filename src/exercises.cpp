@@ -259,7 +259,7 @@ cout << "Los valores despues de la permutacion son; a = " << a << "b =" << b << 
 
 void exercise_16(int debut, int fin) {
    int hours;
-    int tarifa;
+   int tarifa;
 
     if(debut == fin){
         cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
