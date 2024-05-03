@@ -215,17 +215,17 @@ cout << 3 << endl;
 string exercise_13(int age, int years_of_experience) {
 if(age >= 18){
   if(years_of_experience >= 5){
-    return "senior project manager";
+    return "Senior project manager";
   }
   else if(years_of_experience >= 3){
-    return "project manager";
+    return "Project manager";
   }
   else{
-    return "project coordinator";
+    return "Project coordinator";
   }
   }
   else{
-    return "not eligible";
+    return "Not eligible";
   }
   return 0;
 
