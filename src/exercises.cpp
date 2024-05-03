@@ -223,11 +223,12 @@ if(age >= 18){
   else{
     return "project coordinator";
   }
+  }
   else{
     return "not eligible";
   }
   return 0;
-}
+
 }
 
 string exercise_14(int number_of_docs) {
